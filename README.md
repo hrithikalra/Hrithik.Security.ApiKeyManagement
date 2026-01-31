@@ -1,4 +1,4 @@
-🔐 Hrithik.Security.ApiKeyManagement
+﻿🔐 Hrithik.Security.ApiKeyManagement
 
 Enterprise-grade API key generation, validation, revocation, expiration, and scope-based authorization for ASP.NET Core APIs.
 

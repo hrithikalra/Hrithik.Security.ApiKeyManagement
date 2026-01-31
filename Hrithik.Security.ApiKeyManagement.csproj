@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<!-- Package type -->
+		<TargetFramework>net8.0</TargetFramework>
+		<OutputType>Library</OutputType>
+
+		<!-- C# settings -->
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>1591</NoWarn>
+
+		<!-- NuGet metadata -->
+		<PackageId>Hrithik.Security.ApiKeyManagement</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Hrithik Kalra</Authors>
+		<Company>Hrithik</Company>
+		<Description>
+			Secure API key generation, hashing, validation, expiration, revocation,
+			and scope-based authorization for ASP.NET Core APIs.
+		</Description>
+		<PackageTags>security;apikey;aspnetcore;fintech;authorization</PackageTags>
+		<RepositoryUrl>https://github.com/hrithikalra/Hrithik.Security.ApiKeyManagement</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageProjectUrl>https://github.com/hrithikalra/Hrithik.Security.ApiKeyManagement</PackageProjectUrl>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.3.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.9" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.2" />
+  </ItemGroup>
+
+</Project>
